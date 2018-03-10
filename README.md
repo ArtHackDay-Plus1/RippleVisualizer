@@ -1,5 +1,6 @@
-# RippleVisualizer
+# oF_OSC_ReceiverSample 
 
+### Python OSC Sender Sample
 `sandbox/sender_sample.py`でX,Y,Z,Interactionの値を送信できるテストができます。
 `config.py`にてportは`8008`に、ipは`127.0.0.1`に設定されてる。
 
@@ -18,6 +19,7 @@ type X:
 ^CExit with Ctrl+C / sys.exit(0) 
 ```
 
+### oF Receiver Sample
 oF projectでは`src/manager/MacroManager.hpp`にて`osc_port_num = 8008`が設定されている。
 上記の`sandbox/sender_sample.py`を行った時、oFでは下記のようなlogが取れる
 
