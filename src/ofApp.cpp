@@ -2,17 +2,17 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-
+    OSCManager::setup();
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-
+    OSCManager::update();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+    ofSetWindowTitle("Model::interaction_value: "+ofToString(Model::interaction_value));
 }
 
 //--------------------------------------------------------------

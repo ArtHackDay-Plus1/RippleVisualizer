@@ -1,6 +1,8 @@
 #pragma once
 
 #include "ofMain.h"
+#include "OSCManager.hpp"
+#include "Model.hpp"
 
 class ofApp : public ofBaseApp{
 
